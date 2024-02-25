@@ -1,0 +1,44 @@
+.display-prop{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+}
+
+.sidebar{
+    min-height: 800px;
+}
+
+.flx{
+    display: flex;
+    margin: 10px;
+}
+
+.form-edit{
+    width: 500px;
+
+}
+
+.ftr{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+}
+
+.form-edit-div{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.post-card{
+    margin: 20px;
+}
+
+.tag{
+    margin: 5px;
+    
+}
