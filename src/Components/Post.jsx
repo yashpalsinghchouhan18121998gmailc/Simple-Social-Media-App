@@ -25,7 +25,7 @@ const Post = ({ post }) => {
           </span>
         ))}
 
-        <div class="alert alert-success" role="alert">
+        <div className="alert alert-success" role="alert">
           This post has {post.reactions} <MdAddReaction />
         </div>
       </div>

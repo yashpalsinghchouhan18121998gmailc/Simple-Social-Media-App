@@ -12,7 +12,33 @@
 
 .flx{
     display: flex;
-    margin: 10px;
+    margin: 100px 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    height: 20%;
+    width: 100%;
+    /* width:10%; */
+    /* border-radius: 15px; */
+
+}
+
+.flx-postlist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flx-btn{
+   
+    border: 3   px solid rgb(78, 119, 233);
+    height: 20%;
+    width:10%;
+    border-radius: 15px;
+    background-color: grey;
+      color: white;
+      font-weight: 600;
+      font-size: larger;
 }
 
 .form-edit{

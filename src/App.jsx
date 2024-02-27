@@ -13,7 +13,7 @@ function App() {
 
   return (
     <PostListProvider>
-      <div className="display-prop">
+      <div className="display-prop ">
         <Sidebar
           selectedTab={selectedTab}
           setSelectedTab={setSelectedTab}

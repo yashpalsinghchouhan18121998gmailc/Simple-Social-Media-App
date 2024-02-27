@@ -14,14 +14,19 @@ const CreatePost = () => {
   const handleSubmt = (event) => {
     // values nikalne k liye taki addpost me dal ske
     event.preventDefault();
+    // event liya taki prevent default kar ske jiska mtlb hota h ki apn uski normal kam ko rok kar
+    // apna assign kiya hua kaam usse krwaye
     const userId = userIdElement.current.value;
+    // current value means jab submit button dbaya gya tab jo jo inputs me values thi vo
+    // usedId ke paas chali jaye
     const title = titleElement.current.value;
     const body = bodyElement.current.value;
     const reactions = reactionsElement.current.value;
     const tags = tagsElement.current.value.split(" ");
+    //giving space a
 
     addPost(userId, title, body, reactions, tags);
-
+    // this function add new post based on
     userIdElement.current.value = "";
     titleElement.current.value = "";
     bodyElement.current.value = "";
